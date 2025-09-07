@@ -1,0 +1,75 @@
+/* client/src/App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.story-part {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.story-part:last-child {
+  border-bottom: none;
+}
+
+.scoreboard div {
+  margin-bottom: 6px;
+}
+
+.current-turn {
+  margin: 12px 0;
+  font-weight: bold;
+  color: #0056b3;
+}
